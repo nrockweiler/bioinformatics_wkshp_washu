@@ -11,7 +11,7 @@ ol,ul{margin:0;padding:0;font-family: 'nexa_boldregular';}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 /* start editing from here */
-a{text-decoration:none;}
+a{text-decoration:none;color:#0000ff;}
 .txt-rt{text-align:right;}/* text align right */
 .txt-lt{text-align:left;}/* text align left */
 .txt-center{text-align:center;}/* text align center */
