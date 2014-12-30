@@ -21,23 +21,34 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 
-/*Instructor list*/
-img.instructor{
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    width: 25%;
-    height: 25%;
-    float:left;
+
+/*instructors and helpers*/
+.group {
+margin: 0 auto;
+padding: 20px;
+text-align:center 
 }
-p.instructor{
-    font-family: 'nexa_boldregular';
-    text-align: center;
-    float:left;
-    width: 25%;
-    vertical-align: middle;
+.person {
+margin: 5px;
+padding: 5px;
+display: inline-block;
+
+}	
+.person img {
+background-position: 50% 50%;
+background-repeat: no-repeat;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+width: auto;
+margin: 5px;
+vertical-align: middle;
+}
+div.desc {
+width: 200px;
+font-family: 'nexa_boldregular';
+text-align: center;
+vertical-align: middle;
 }
 
 /*end reset*/
@@ -73,7 +84,8 @@ float:left;
 .centered {
 display: block;
 margin-left: auto;
-margin-right: auto }
+margin-right: auto;
+}
 /*menu*/
 .cssmenu {
 float: right;
@@ -203,7 +215,7 @@ color:#333333;
 }
 h3.style{
 text-align: center;
-font-size: 0.8125em;
+font-size: 1.2em;
 color: #777777;
 text-transform: capitalize;
 font-family: 'Merriweather Sans', sans-serif;
