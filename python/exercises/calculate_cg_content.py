@@ -12,4 +12,4 @@ dna_string = sys.argv[1]
 
 
 # Print out the calculated cg content
-print "The CG content is " + str(cg_content) + "%"
+print("The CG content is " + str(cg_content) + "%")
