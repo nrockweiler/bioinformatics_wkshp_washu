@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 
 # This script takes in a tab separated file that has heights
 # corresonding to different groups definied by the first column
