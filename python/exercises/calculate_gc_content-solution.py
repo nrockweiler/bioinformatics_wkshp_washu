@@ -3,7 +3,7 @@
 # python imports
 import sys
 
-# This script takes as input from STDIN a nucleotide string and prints out the GC-content of that string
+# This script takes as input a nucleotide string and prints out the GC-content of that string
 
 
 # get the DNA string from STDIN and remove any return characters
