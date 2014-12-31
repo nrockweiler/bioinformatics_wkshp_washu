@@ -1,12 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # python imports
 import sys
 
 # This script takes in two strings: a sequence and a motif and returns a list of all of the positions that motif is found.
 
-
-# get the DNA string from STDIN and remove any return characters
+# get the DNA string and motif from the command line arguments
 dna_string = sys.argv[1]
 motif = sys.argv[2]
 

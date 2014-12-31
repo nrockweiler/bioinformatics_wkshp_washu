@@ -1,4 +1,4 @@
-#!/usr/bin/env python  
+#!/usr/bin/env python3  
 
 def reverse_complement(rna_string):
     complement = {'A': 'U', 'C': 'G', 'G': 'C', 'U': 'A'} 
