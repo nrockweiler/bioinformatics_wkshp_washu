@@ -1,12 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # python imports
 import sys
 
 # This script takes as input a nucleotide string and prints out the GC-content of that string
+ 
 
-
-# get the DNA string from STDIN and remove any return characters
+# get the DNA string from the first command line argument
 dna_string = sys.argv[1]
 
 # calculate GC content of dna_string and assign to variable gc_content
