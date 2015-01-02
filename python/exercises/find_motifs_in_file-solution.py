@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This function takes in a fasta file and motif and prints out each sequence name followed by the a list of the locations that the motif is found in the sequence, on seqparate lines
+# This script takes in a fasta file and motif and prints out each sequence name followed by the a list of the locations that the motif is found in the sequence, on seqparate lines
 
 import sys # Import module for access to command line arguments
 import motifs # Import user defined module that contains the find_motifs function
