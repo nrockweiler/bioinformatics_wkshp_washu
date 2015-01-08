@@ -20,6 +20,9 @@ import numpy as np
 cluster_size_file = sys.argv[1]
 
 # Load the data with Numpy's loadtxt function
+# Syntax for loadtxt: np.loadtxt(filename, skiprows=1, delimiter="\t").  
+# The skiprows=1 means skip the first row.  We want to skip the first row because
+# it contains the column names, not actual data
 # The cluster size input file contains a header row and is delimited by tabs.
 # The first column is the size of the cluster
 # The second column is the number of clusters with that size

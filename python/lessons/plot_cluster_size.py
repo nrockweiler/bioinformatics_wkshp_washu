@@ -9,7 +9,8 @@
 import sys
 
 # Set up the backend to pyplot
-# TODO
+import matplotlib
+matplotlib.use('pdf')
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -18,18 +19,34 @@ import numpy as np
 # Grab the command line argument
 cluster_size_file = sys.argv[1]
 
-# TODO
-# Load the data with Numpy's loadtxt function
+# Next, we want to read in the cluster size input file
 # The cluster size input file contains a header row and is delimited by tabs.
 # The first column is the size of the cluster
 # The second column is the number of clusters with that size
 # The third column is the total number of sequences in all the clusters of that size
+# TODO
+# Load the data with Numpy's loadtxt function
+# The syntax for loadtxt is data = np.loadtxt(filename, skiprows=1, delimiter="\t").  
+# The skiprows=1 means skip the first row.  We want to skip the first row because
+# it contains the column names, not actual data
 
 # TODO
-# Create the scaatterplot
+# We want to make a plot of the number of clusters versus the cluster size.
+# Create a variable cluster_size to store the cluster sizes.  Set it equal
+# to the first column of data.  (The first column contains the cluster data)
+# To select the Nth column from an array, the syntax is data[:,N]
 
 # TODO
-# Annotate the plot
+# Create a variable num_clusters to store the cluster sizes.  Set it equal
+# to the second column of data.  (The first column contains the number of clusters)
+# To select the Nth column from an array, the syntax is data[:,N]
+
+
+# TODO
+# Create the scatterplot
+
+# TODO
+# Annotate the plot with a title, x-axis label, and y-axis label
 
 
 # TODO

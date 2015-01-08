@@ -22,7 +22,7 @@ import subprocess
 
 # Grab the command line arguments
 fasta = sys.argv[1]
-identity_threshold = sys.argv[2] # Note: Python will treat this variable as a string not a float.  This is okay for this script because we're not doing any math with this variable.  If we were, we'd need to identity_threshold = (sys.argv[2]).
+identity_threshold = sys.argv[2] # Note: Python will treat this variable as a string not a float.  This is okay for this script because we're not doing any math with this variable.  If we were, we'd need to identity_threshold = float(sys.argv[2]).
 
 # Run cd-hit
 # The usage for running cd-hit is:
@@ -48,13 +48,18 @@ identity_threshold = sys.argv[2] # Note: Python will treat this variable as a st
 # Create a variable called cd_hit_cluster_output to store the cluster output filename.  cd-hit called this file <cd_hit_fasta_output>.clstr.  For example, if cd_hit_fasta_output = "clustered_0.8_protein.faa", the cluster file will be "clustered_0.8_protein.faa.clstr"
 
 # TODO
-# Create a variable called cluster_size_output to store the cluster size output filename.
+# Create a variable called cluster_size_output to store the cluster size output filename.  Let's call this file <cd_hit_cluster_output>.size.  For example, if cd_hit_cluster_output = clustered_0.8_protein.faa.clstr, the size file will be clustered_0.8_protein.faa.clstr.size
 
 # TODO
 # Use subprocess.call to run the clstr_size_stat.pl command
 # Since we're going to save the stdout to a file, the syntax for subprocess.call is:
 # subprocess.call(list_of_arguments, stdout=file_object)
+
+# TODO
 # Create a file object for the output file using open.  Make sure you open the file for writing.
+
+# TODO
+# Call subprocess
 
 # TODO
 # Close the file object.
